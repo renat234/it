@@ -1,7 +1,7 @@
 
 body {
 	position: relative;
-	font-family: 'Noto Sans', sans-serif;
+	font-family: 'IBM Plex Serif', sans-serif;
 	font-size: 16px;
 	line-height: 1.4;
 	color: #000;
@@ -16,8 +16,8 @@ body {
 .navbar {
   width: 100%;
   height: 115px;
-  box-shadow: 0 4px 10px rgba(10, 88, 202, .9);
-  background-color: #3c77ce;
+  box-shadow: 0 4px 10px rgba(118, 159, 205, .9);
+  background-color: #769FCD;
 }
 .navbar .container {
 	height: inherit;
@@ -38,7 +38,7 @@ body {
 
    .navbar-menu li a {
   	display: inline-block;
-  	color: #000;
+  	color: #fff;
   	opacity: 0.6;
   	text-decoration: none;
   	padding: 10px;
@@ -56,9 +56,9 @@ body {
   .callback{
   	margin-left: 30px;
   	padding: 10px 20px;
-  	background-color: #2d54b3;
+  	background-color: #145E90;
   	border-radius: 200px;
-  	color: #fff; 
+  	color: #000; 
   	text-decoration: none;
   	box-shadow: 0 4px 6px rgba(187, 87, 252, .1);
   	transition: all .1s ease-out;
@@ -66,23 +66,24 @@ body {
 
   .callback:hover{
   	transform: scale(1.04);
-  	color: #fff;
+  	color: #000;
   	box-shadow: 0 9px 9px rgba(45, 84, 179, .5);
+    text-decoration: none;
   }
 
   .navbar-brand{
   	font-weight: 700;
   	font-size: 26px;
   	text-decoration: none;
-  	color: #000;
-  	transition: all .07s ease-in-out
+  	color: #769FCD;
+  	transition: all .07s ease-in-out;
   }
 
   .navbar-brand:hover{
-  	color: #b13bfe;
+  	color: #769FCD;
   }
   .product{
-  	margin-bottom: 30px
+  	margin-bottom: 30px;
   }
   	
  .image img {
@@ -165,7 +166,8 @@ body {
  .btn-main:hover{
 	box-shadow: 0 5px 10px rgba(0,0,0, .4)
 	transform: scale(1.05);
-	color: #3c77ce;
+	color: #fff;
+  text-decoration: none;
 }
 .background{
 	background-color: coral;
@@ -270,7 +272,7 @@ hr {
 
 .registerbtn:hover {
   opacity:1;
-  color: #3c77ce;
+  color: #fff;
 }
 
 a {
@@ -458,6 +460,7 @@ input {
     font-weight: normal;
     margin: 0;
     text-align: center;
+    text-decoration: none;
 }
 .info-text2 p {
     font-size: 15px;
@@ -476,3 +479,54 @@ input {
     left: 0;
     text-align: center;
 }
+
+  
+form, p, span {
+    margin:0;
+    padding:0; }
+  
+input { font:12px arial; }
+  
+a {
+    color:#0000FF;
+    text-decoration:none; }
+  
+    a:hover { text-decoration:underline; }
+  
+#wrapper, #loginform {
+    margin:0 auto;
+    padding-bottom:25px;
+    background:#EBF4FB;
+    width:504px;
+    border:1px solid #ACD8F0; }
+  
+#loginform { padding-top:18px; }
+  
+    #loginform p { margin: 5px; }
+  
+#chatbox {
+    text-align:left;
+    margin:0 auto;
+    margin-bottom:25px;
+    padding:10px;
+    background:#fff;
+    height:270px;
+    width:430px;
+    border:1px solid #ACD8F0;
+    overflow:auto; }
+  
+#usermsg {
+    width:395px;
+    border:1px solid #ACD8F0; }
+  
+#submit { width: 60px; }
+  
+.error { color: #ff0000; }
+  
+#menu { padding:12.5px 25px 12.5px 25px; }
+  
+.welcome { float:left; }
+  
+.logout { float:right; }
+  
+.msgln { margin:0 0 2px 0; }
